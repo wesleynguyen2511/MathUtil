@@ -11,6 +11,7 @@ Unisersity, HCM Campus.
 * gitignore file
 
 ## Contact me via
-[GitHub](https://github.com/wesleynguyen2511)
+1. [GitHub](https://github.com/wesleynguyen2511)
+2. [Email](dragon251100@gmail.com)
 
 #### © 2020 by vietthuc
