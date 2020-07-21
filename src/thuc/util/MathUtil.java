@@ -18,7 +18,7 @@ public class MathUtil {
     public static long computeFactorial(int n){
         //cu viet, sai dung tu tu tinh sau
         long result = 1;
-        for (int i = 0; i < 10; i++) {
+        for (int i = 1; i <= n; i++) {
             result *=i;
         }
         return result;
