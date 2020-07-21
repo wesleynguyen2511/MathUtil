@@ -17,10 +17,16 @@ public class MathUtil {
     //nen tran int (2 ti 1) som, ta tra long co 15! thoi
     public static long computeFactorial(int n){
         //cu viet, sai dung tu tu tinh sau
-        long result = 1;
-        for (int i = 1; i <= n; i++) {
-            result *=i;
-        }
-        return result;
+        //ta ko tinh giai thua am, va n > 15 vi qua lon tran so
+        if(n<0 || n>15)
+            throw new IllegalArgumentException("Invalid argument. n must be >=0 and <=15");
+        if(n ==0 || n==1)
+            return 1; //diem dung cua giai thua
+        return n* computeFactorial(n-1);
+        //long result = 1;
+        //for (int i = 1; i <= n; i++) {
+        //    result *=i;
+        //}
+        //return result;
     }
 }
